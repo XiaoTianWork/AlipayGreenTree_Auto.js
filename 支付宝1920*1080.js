@@ -147,10 +147,10 @@ sleep(500);
 var y = 0;
 var x = 1068 * zoomX;
 while (y < 1876 * zoomY) {
-var r1 = images.detectsColor(img, "#30BF6C", x, y);
+var r1 = images.detectsColor(img, "#1DA06D", x, y);
 var r2 = images.detectsColor(img, "#FFFFFF", x, y + 30 * zoomY);
 var r3 = images.detectsColor(img, "#FFFFFF", x, y + 22 * zoomY);
-var r4 = images.detectsColor(img, "#30BF6C", x, y + 38 * zoomY);
+var r4 = images.detectsColor(img, "#1DA06D", x, y + 38 * zoomY);
 if (r1 && r2 && r3 && r4) {
 return y;
 break;
